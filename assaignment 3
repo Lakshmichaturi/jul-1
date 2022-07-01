@@ -1,0 +1,6 @@
+number = int(input("Please Enter any Number: "))
+p=1
+print("The List of Natural Numbers from 1 to {0} are".format(number)) 
+while ( p <= number):
+    print (p, end = '  ')
+    p=p+1
