@@ -1,0 +1,6 @@
+from math import sqrt
+def solve(s):
+   sq_root = int(sqrt(s))
+   return (sq_root*sq_root) == s
+s = int(input ("enter number: "))
+print (solve(s))
